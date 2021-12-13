@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Router from "next/router";
 import fetch from "isomorphic-unfetch";
-import React from "React";
+import React from "react";
 export default class App extends React.Component {
   static async getInitialProps({ query: { page = 1 } }) {
     try {
